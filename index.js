@@ -1,2 +1,2 @@
 var dodger = document.getElementById('dodger');
-  dodger.style.backgroundColor = ' ';
+  dodger.style.backgroundColor = 'salmon';
