@@ -17,7 +17,7 @@ document.addEventListener('keydown', function(e) {
 
 function moveDodgerRight() {
   var leftNumbers = dodger.style.left.replace('px', '');
-  var left = parseInt(leftNumbers, 10);
+  var right = parseInt(10, rightNumbers);
  
   if (right < 180) {
     dodger.style.right = `${left + 1}px`;
