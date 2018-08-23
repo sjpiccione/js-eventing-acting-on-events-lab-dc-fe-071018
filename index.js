@@ -20,7 +20,7 @@ function moveDodgerRight() {
   var right = parseInt(10, rightNumbers);
  
   if (right < 180) {
-    dodger.style.right = `${right - 1}px`;
+    dodger.style.right = `${right + 1}px`;
   }
 }
 
