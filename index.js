@@ -14,3 +14,18 @@ document.addEventListener('keydown', function(e) {
     moveDodgerLeft();
   }
 });
+
+function moveDodgerRight() {
+  var rightNumbers = dodger.style.right.replace('px', '');
+  var right = parseInt(leftNumbers, 10);
+ 
+  if (right < 100) {
+    dodger.style.right = `${right - 1}px`;
+  }
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.which === 37) {
+    moveDodgerRight();
+  }
+});
